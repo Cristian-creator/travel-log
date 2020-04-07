@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.marker {
+    z-index: 5 !important;
+    stroke: #f8c102;
+    transform: translate(-50%, -100%);
+    position: relative;
+
+}
+
+.error {
+    color: #f05305;
+}
+
+.popup {
+    /* max-width: 400px; */
+    position: relative;
+    padding: 1rem;
+    width: 40vw;
+    z-index: 10 !important;
+}
+
+.popup img {
+    z-index: 10;
+    height: 200px;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.entry-form label,
+.entry-form input, 
+.entry-form textarea, 
+.entry-form button {
+    margin: 0.5rem 0;
+    display: block;
+    width: 100%;
+}
